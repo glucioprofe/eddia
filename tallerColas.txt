@@ -1,0 +1,19 @@
+Realice un programa que permita registrar corredores de 100 metros planos.
+
+De cada corredor se debe registrar, nombre y tiempo record personal para 100 metros.
+El programa de permitir mostrar todos los corredores.
+El programa permite mostrar el mejor tiempo y quien lo tiene.
+El programa permite calcular el promedio de tiempos de todos los corredores.
+-----
+Realizar una segunda lista en orden ascendente siendo la cabeza el menor tiempo y asi sucesivamente hasta el mayor tiempo.
+
+----
+Rubrica (100).
+1. Registro de corredores adecuadamente (20 Puntos). Puedo agregar corredores en cualquier momento.
+2. Mostrar todos los corredores (10 Puntos)
+3. Mejor tiempo (quien menos se demora en recorrer los 100 metros). (20 Puntos)
+4. Calcular promedio (20 Puntos)
+5. Realizar una segunda lista en orden ascendente (30 Puntos)
+
+Pueden realizarlo maximo en parejas pero cada quien sube el proyecto a su repositorio de GitHub. Solo se recibirá el Link del Repositorio. Deje claro a traves de un comentario al inicio de codigo de quienes trabajaron juntos. 
+
