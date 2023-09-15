@@ -31,8 +31,21 @@ int mostrar(){
         aux2 = cab;
         while(aux2 != NULL) {
             cout<<"Auto: "<<aux2->placa<<endl;
+            aux2 = aux2->sig;
         }
-        aux2->sig = aux;
+}
+int contarplacas(){
+    int cant = 0;
+    int placa = 0;
+    cout<<"Digito placa a buscar: ";
+    cin>>placa;
+    aux2 = cab;
+        while(aux2 != NULL) {
+            if(placa==aux2->placa)
+                cant++;
+            aux2 = aux2->sig;
+        }
+    cout<<"Al buscar la placa terminada en:"<<placa<<" encontramos: "<<cant<<endl;
 }
 
 int main(){
@@ -41,6 +54,21 @@ int main(){
         cout<<"Menu"<<endl;
         cout<<"1. Registrar Autos"<<endl;
         cout<<"2. Mostrar Autos"<<endl;
+        cout<<"3. Contar placas"<<endl;
+        cin>>opcion;
+        switch (opcion)
+        {
+        case 1: registrar();
+            break;
+        case 2: mostrar();
+            break;
+        
+        case 3: contarplacas();
+            break;
+        
+        default:
+            break;
+        }
     } while(opcion!=5);
     return 0;
 }
